@@ -4,24 +4,39 @@
             Google Sign-In 
         </title>
         <style type="text/css">
-            body 
-            {
-                background-color: rgb(53,53,53);
-                color: rgb(119,121,125);
-                font-size: 16px;
-                font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-                margin:40px 40px;
-                line-height: 30px;
-            }
-            h1 
-            {
-                color:rgb(231, 128, 59);
-                font-size: 24px;
-                font-weight: 100;
-                text-transform:uppercase;
-                margin-bottom: 20px;
-                margin-top: 40px;
-            }
+        body 
+        {
+            background-color: rgb(235,235,236);
+            color: rgb(105,105,105);
+            font-size: 16px;
+            font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+            margin:40px 40px;
+            line-height: 30px;
+        }
+        h1 
+        {
+            color:rgb(231, 128, 59);
+            font-size: 20px;
+            font-weight: 100;
+            text-transform:uppercase;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        a {
+            color: #3c96f0;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #3c96f0;
+        }
+        a:hover {
+            color: #78b8f8;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
 
         .blue-button {
             text-transform: uppercase;
@@ -48,29 +63,24 @@
             color: white;
         }
 
-        .info {
-            width : 500px;
-
-            margin: auto;
-        }
-
         .actions {
             margin-top: 60px;
         }
-        .yowza {
-            width: 375px;
+        .info {
+            width: 400px;
         }
         </style>
     
     </head>
     <body>
         <div align="center">
-        <div class="yowza" align="left">
-            <img src="tb.png" style="width: 100%" />
-            <h1>Sign-in Is Not Supported </h1>
-            <p>Thanks to the good folks at ..., support for signing in has been disabled.</p>
-            <p>Enjoy your day.</p>
-            <p><span style="font-size:40px;">☠</span></p>
+        <div class="info" align="left">
+            <div align="center">
+                <img src="logo.png" style="width:200px" />
+            </div>
+            <h1>Google Authentication Update</h1>
+            <p>Due to increased security measures, Google no longer supports in-application authentication. Please go to <a href="https://id.maxon.net">id.maxon.net</a> where you can sign in using your Google credentials and then create a native password under ‘Profile’. Your existing email address and native password can then be used here. This change will have no effect on your account.</p>
+            <p>We apologize for the inconvenience.<br />&mdash;The Maxon Team</p>
         </div>
         </div>
     </body>
